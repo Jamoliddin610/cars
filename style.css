@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lexend Deca',sans-serif;
+
+}
+.cars-list{
+    width: 920px;
+    height: 500px;
+    margin:  100px auto;
+    display: flex;
+    list-style: none;
+    border-radius: 8px;
+}
+.cars-items{
+    padding: 60px 45px;
+    border-radius: 8px 0px 0px 8px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.yellow{
+    background: #e28625;
+}
+.blue{
+    background: #006971;
+    border-radius: 8px 0px 0px 8px;
+}
+.green{
+    background: #004140;
+    border-radius: 8px 8px 8px 8px;
+}
+.cars-h2{
+    font-family: Big Shoulders Display,sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    margin-bottom: 25px;
+}
+.suv::before{
+    content: '';
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+    background-image:url('./img/icon-suv.svg') ;
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+.luxury::before {
+    content: '';
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+    background-image: url('./img/icon-luxury.svg');
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+.sedan::before {
+    content: '';
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+    background-image: url('./img/icon-sedan.svg');
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+.cars-paragraph{
+    font-family: Lexend Deca,sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.75;
+    margin-bottom: 80px;
+}
+.first {
+    color: #E28625;
+}
+
+.second {
+    color: #006971;
+}
+
+.third {
+    color: #004140;
+}
+.cars-button{
+    width: 146px;
+    height: 48px;
+    background: #F2F2F2;
+    border-radius: 25px;
+    border:none;
+    padding: 11px 30px;
+    cursor: pointer;
+}
+.cars-button:active,:focus{    
+    background-color: transparent;
+    outline:solid 2px #fff;   
+    color: #fff; 
+}
