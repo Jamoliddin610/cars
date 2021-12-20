@@ -7,12 +7,24 @@
 }
 body{
     font-family: 'Lexend Deca',sans-serif;
+    background-image: repeating-linear-gradient(150deg, rgba(0, 0, 0, .06),
+        rgba(0, 0, 0, .06) 1px, transparent 0, transparent 41px),
+    repeating-linear-gradient(-150deg, rgba(0, 0, 0, .06),
+        rgba(0, 0, 0, .06) 1px, transparent 0, transparent 41px);
+    ;
+     
 
+}
+.container{
+    background: url("https://assets.htmlacademy.ru/img/icons/bg.svg") center no-repeat;
+    background-size: cover;
+    height: 800px;
+    padding: 180px;
 }
 .cars-list{
     width: 920px;
     height: 500px;
-    margin:  100px auto;
+    margin: 0 auto;
     display: flex;
     list-style: none;
     border-radius: 8px;
@@ -22,6 +34,7 @@ body{
     border-radius: 8px 0px 0px 8px;
     display: flex;
     flex-direction: column;
+    
 
     
 }
@@ -105,4 +118,8 @@ body{
     background-color: transparent;
     outline:solid 2px #fff;   
     color: #fff; 
+   
+    
+
+        
 }
